@@ -1,0 +1,466 @@
+.bg-login {
+    background-repeat: repeat;
+    background-image: url("../assets/bg.png");
+}
+
+.white-opacity {
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+.opacity-background {
+    background-image: url("../assets/barbearia1.png");
+    opacity: 0.4;
+}
+
+.w3-bg-header {
+    background-image: url("../assets/images/barbearia2.png");
+    background-repeat: repeat-x;
+}
+
+.w3-box-user {
+    display: inline-block;
+}
+
+    .w3-box-user:hover {
+        cursor: pointer;
+    }
+
+        .w3-box-user:hover .w3-drop-user .w3-aqua {
+            background-color: #186598 !important;
+        }
+
+.w3-icon-user, .w3-text-user, .w3-drop-user {
+    height: 64px;
+}
+
+.w3-icon-user {
+    padding: 12px 10px;
+}
+
+.w3-text-user {
+    padding: 11px 10px;
+}
+
+.w3-drop-user {
+    padding: 18px 10px;
+}
+
+.w3-top-arrow .w3-top-arrow-content::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 44%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.w3-width-fotter-box-user {
+    height: 16px;
+    width: 360px;
+}
+
+.w3-button > .btn-left {
+    float: left;
+}
+
+.w3-button > .btn-right {
+    float: right;
+    margin-top: 4px;
+}
+
+.w3-menu-principal i {
+    float: right;
+    margin-top: -2px;
+    margin-left: 8px;
+}
+
+.choose::-webkit-file-upload-button {
+    color: white;
+    display: inline-block;
+    margin-block: auto;
+    background: #41c0c0;
+    border: none;
+    padding: 9px 15px;
+    font-weight: 700;
+    border-radius: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 10pt;
+    margin: 0px 5px 0px 0px;
+}
+
+.choose {
+    width: 100%;
+}
+
+    .choose::-webkit-file-upload-button:hover {
+        color: white;
+        display: inline-block;
+        margin-block: auto;
+        background: #166696;
+        border: none;
+        padding: 9px 15px;
+        font-weight: 700;
+        border-radius: 3px;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 10pt;
+    }
+
+.w3-menu-mobile {
+    height: 70px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.w3-menu-burger div {
+    width: 35px;
+    height: 5px;
+    background-color: #44c0c0;
+    margin: 6px 0;
+}
+
+.w3-icon-sidebar {
+    padding: 5px;
+}
+
+.w3-text-sidebar {
+    padding: 3px;
+}
+
+.w3-btn-close-sidebar {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.w3-btn-sidebar {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+}
+
+    .w3-btn-sidebar .w3-icon-right-s {
+        float: right;
+        padding-top: 6px;
+    }
+
+.w3-btn-accordion {
+    padding: 6px 12px;
+}
+
+.active, .js-accordion:hover {
+    background-color: #f1f1f1;
+}
+
+.js-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.w3-btn-sidebar::after, .w3-btn-accordion::after {
+    display: block;
+    font-family: "FontAwesome";
+    content: "\f0da";
+    float: right;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    color: #186598
+}
+
+.w3-btn-sidebar::after {
+    padding-top: 1px;
+}
+
+.w3-btn-sidebar.active::after, .w3-btn-accordion.active::after {
+    content: "\f0d7"
+}
+
+.w3-dark-green, .w3-hover-dark-green:hover {
+    color: #fff !important;
+    background-color: #298729 !important
+}
+
+.w3-text-alert-danger, .w3-hover-text-alert-danger {
+    color: #7a2b2b !important
+}
+
+.w3-alert-warning {
+    background-color: #ffeec6;
+    color: #624b0f;
+}
+
+.w3-right-align-mobile {
+    text-align: right;
+}
+
+.w3-btn-detalhe, .w3-span-detalhe {
+    padding: 2px 6px;
+}
+
+.w3-btn-pendente {
+    padding: 3px 6px;
+}
+
+    .w3-btn-pendente:hover > i, .w3-btn-detalhe:hover > i {
+        color: #fff !important;
+    }
+
+.w3-round-top {
+    border-radius: 4px 4px 0 0
+}
+
+.w3-round-bottom {
+    border-radius: 0 0 4px 4px
+}
+
+.w3-round-top-large {
+    border-radius: 8px 8px 0 0
+}
+
+.w3-round-bottom-large {
+    border-radius: 0 0 8px 8px
+}
+
+.w3-round-top-left-large {
+    border-radius: 0 8px 0 0
+}
+
+.w3-round-left-large {
+    border-radius: 8px 0 0 8px
+}
+
+.w3-round-right-large {
+    border-radius: 0 8px 8px 0
+}
+
+.w3-margin-text-input {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+/* begin tooltips */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: rgba(0,0,0, 0.7);
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 14px;
+    }
+
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: rgba(0,0,0, 0.7) transparent transparent transparent;
+        }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+
+#drop-zone input[type=file] {
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+}
+
+/* end tooltips */
+.w3-table-border th, .w3-table-border td {
+    border: 1px solid #ccc;
+}
+
+.w3-load-modal {
+    position: absolute;
+    width: 96%;
+}
+
+.w3-btn-pesquisar:hover {
+    cursor: text;
+}
+/* begin style table mobile */
+@media (max-width:768px) {
+    .w3-table-mobile tr, .w3-table-mobile td {
+        display: block;
+        width: 100%;
+    }
+
+        .w3-table-mobile td:first-child {
+            padding-left: 9px;
+            border-bottom: 1px solid #ddd;
+        }
+
+    .w3-table-line th:first-child, .w3-table-line td:first-child {
+        padding-left: 50%;
+    }
+
+    table.w3-table-line, .w3-table-line thead, .w3-table-line tbody, .w3-table-line th, .w3-table-line tr, .w3-table-line td {
+        display: block;
+    }
+
+        .w3-table-line thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+    .w3-table-line td, .w3-table-line th {
+        padding: 1.8%;
+    }
+
+    .w3-table-line tr {
+        border-bottom: 2px solid #616161;
+        border-right: none;
+    }
+
+    .w3-table-line td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+        .w3-table-line td:before {
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            width: 45%;
+            white-space: nowrap;
+            font-weight: bold;
+            color: #757575;
+        }
+        /* Label the data */
+        .w3-table-line td:before {
+            content: attr(data-title);
+        }
+
+    .w3-striped-mobile tbody tr > td {
+        background-color: #fff !important;
+        width: 100% !important;
+    }
+
+        .w3-striped-mobile tbody tr > td:nth-child(even) {
+            background-color: #f1f1f1 !important
+        }
+}
+/* end style table mobile */
+@media (max-width:601px) {
+    .w3-bg-header {
+        border-bottom: 1px solid #cacaca;
+        background-color: #d5e4fc;
+    }
+
+    .w3-top-arrow .w3-top-arrow-content::after {
+        left: 31%;
+    }
+
+    .w3-width-fotter-box-user {
+        height: 16px;
+        width: 250px;
+    }
+
+    .w3-right-align-mobile {
+        text-align: left;
+    }
+
+    .w3-margin-text-input {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        height: 10px;
+        line-height: 10px;
+        text-align: left;
+    }
+
+    .w3-load-modal {
+        width: 90%;
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .w3-select {
+        padding-right: 28px;
+    }
+}
+
+/*FLIP CARD*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
